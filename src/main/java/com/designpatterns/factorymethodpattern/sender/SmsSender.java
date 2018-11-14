@@ -1,4 +1,4 @@
-package com.designpatterns.factorymethodpattern;
+package com.designpatterns.factorymethodpattern.sender;
 
 public class SmsSender implements Sender {
 
