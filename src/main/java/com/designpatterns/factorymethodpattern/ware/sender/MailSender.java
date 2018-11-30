@@ -1,4 +1,4 @@
-package com.designpatterns.factorymethodpattern.sender;
+package com.designpatterns.factorymethodpattern.ware.sender;
 
 public class MailSender implements Sender {
     @Override

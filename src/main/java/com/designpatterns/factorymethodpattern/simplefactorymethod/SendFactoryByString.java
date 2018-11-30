@@ -1,8 +1,8 @@
 package com.designpatterns.factorymethodpattern.simplefactorymethod;
 
-import com.designpatterns.factorymethodpattern.sender.MailSender;
-import com.designpatterns.factorymethodpattern.sender.Sender;
-import com.designpatterns.factorymethodpattern.sender.SmsSender;
+import com.designpatterns.factorymethodpattern.ware.sender.MailSender;
+import com.designpatterns.factorymethodpattern.ware.sender.Sender;
+import com.designpatterns.factorymethodpattern.ware.sender.SmsSender;
 
 public class SendFactoryByString {
     public Sender produce(String type){
